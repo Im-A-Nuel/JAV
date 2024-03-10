@@ -2,11 +2,13 @@ import java.util.Scanner;
 import java.util.ArrayList;
 
 public class io {
+    @SuppressWarnings("unchecked")
     public static void main(String[] args) {
 
         String siswa[] = {"Imanuella"};
         
 
+        @SuppressWarnings("rawtypes")
         ArrayList arrayList = new ArrayList<>();
         for(int x=0;x<11;x+=2){
             arrayList.add(x);
